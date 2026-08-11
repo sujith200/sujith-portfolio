@@ -13,8 +13,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "SUJITH J - Software Engineer & UI/UX Designer",
-  description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
+  title: "SUJITH J - Webdeveloper",
+  description: "Web Developer who brings your dream website for your business.",
   keywords: [
     "SUJITH J",
     "Software Engineer",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "React Developer",
     "Next.js Developer",
     "Web Designer",
-    "WebHR Engineer",
+    "Sujith portfolio",
     "Portfolio",
   ],
   authors: [{ name: "SUJITH J" }],
@@ -33,14 +33,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "",
-    title: "SUJITH J - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
+    title: "SUJITH J - Web Developer & UI/UX Designer",
+    description: "Web Developer who brings your dream website for your business.",
     siteName: "SUJITH J Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "SUJITH J - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
+    title: "SUJITH J - Web Developer & UI/UX Designer",
+    description: "Web Developer who brings your dream website for your business.",
   },
   robots: {
     index: true,

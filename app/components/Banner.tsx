@@ -49,7 +49,7 @@ export default function Banner(): React.JSX.Element {
       className="min-h-screen flex items-center justify-center pt-20 px-6"
     >
       <div className="container mx-auto max-w-6xl">
-        <div className="flex flex-col lg:flex-row items-center ">
+        <div className="flex flex-col lg:flex-row items-center gap-5 lg:gap-0">
           {/* Left side - Text content */}
           {/* Right side - Character image */}
           <div className="flex justify-center lg:justify-end relative w-full lg:w-auto">
@@ -94,7 +94,7 @@ export default function Banner(): React.JSX.Element {
               />
             </div>
           </div>
-          <div className="flex-1 space-y-4 text-center lg:text-left">
+          <div className="flex-1 space-y-2 text-center lg:text-left">
             {/* Desktop: Hello text in original position */}
             <div className="hidden lg:inline-block relative">
               <Image
@@ -105,7 +105,7 @@ export default function Banner(): React.JSX.Element {
                 className="absolute "
                 style={{ left: "-100px", top: "auto", width: "auto", height: "auto" }}
               />
-              <div style={{ position: "relative" }}>
+              <div>
                 <p className="text-white text-lg">
                   Hello! I Am{" "}
                   <span className="text-purple-400">SUJITH J</span>
@@ -129,6 +129,24 @@ export default function Banner(): React.JSX.Element {
               <p className="text-md text-white/80">
                 Clean interfaces. Responsive websites. User-focused design.
               </p>
+              <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-6">
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 bg-gradient-to-r from-violet-600 to-violet-700 hover:from-violet-700 hover:to-violet-800 text-white px-6 py-3 rounded-full text-sm font-medium transition-colors"
+              >
+                View Resume
+              </a>
+
+              <a
+                href="/resume.pdf"
+                download
+                className="flex items-center gap-2 border border-purple-400/40 hover:border-purple-400 text-white px-6 py-3 rounded-full text-sm font-medium transition-colors"
+              >
+                Download CV
+              </a>
+            </div>
             </div>
           </div>
         </div>
