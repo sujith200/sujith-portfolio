@@ -54,7 +54,7 @@ export default function Header(): React.JSX.Element {
                 About
               </Link>
             </li>
-            <li className="m-0 p-0">
+            <li className="m-0 p-0add">
               <a
               href="/assets/Resume.pdf"
               target="_blank"
