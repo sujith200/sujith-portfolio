@@ -131,7 +131,7 @@ export default function Banner(): React.JSX.Element {
               </p>
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-6">
               <a
-                href="/resume.pdf"
+                href="/assets/Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-gradient-to-r from-violet-600 to-violet-700 hover:from-violet-700 hover:to-violet-800 text-white px-6 py-3 rounded-full text-sm font-medium transition-colors"
@@ -140,7 +140,7 @@ export default function Banner(): React.JSX.Element {
               </a>
 
               <a
-                href="/resume.pdf"
+                href="/assets/Resume.pdf"
                 download
                 className="flex items-center gap-2 border border-purple-400/40 hover:border-purple-400 text-white px-6 py-3 rounded-full text-sm font-medium transition-colors"
               >
