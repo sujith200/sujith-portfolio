@@ -50,7 +50,7 @@ export default function Header(): React.JSX.Element {
               <Link 
                 href="#about" 
                 className="text-white hover:text-purple-400 transition-colors text-base font-normal"
-              >
+              >git
                 About
               </Link>
             </li>
